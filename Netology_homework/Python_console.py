@@ -1,0 +1,47 @@
+square_side = int(input('Введите длину стороны квадрата:'))
+print()
+print('Вывод:')
+print(f'Периметр: {square_side * 4}')
+print(f'Площадь: {square_side ** 2}')
+print()
+rectangle_length = int(input('Введите длину прямоугольника:'))
+rectangle_width = int(input('Введите ширину прямоугольника:'))
+print()
+print('Вывод:')
+print(f'Периметр: {(rectangle_length + rectangle_width) * 2}')
+print(f'Площадь: {rectangle_length * rectangle_width}')
+
+salary_per_month = int(input('Введите заработную плату в месяц:'))
+credit_percent = int(input('Введите, какой процент(%) уходит на ипотеку:'))
+life_percent = int(input('Введите, какой процент(%) уходит на жизнь:'))
+payment_percent = salary_per_month * 12 * credit_percent / 100
+payment_for_life = salary_per_month * 12 * life_percent / 100
+print('Вывод:')
+print(f'На ипотеку было потрачено: {int(payment_percent)}')
+print(f'Было накоплено: {int(salary_per_month * 12 - payment_percent - payment_for_life)}')
+
+square_side = int(input('Введите длину стороны квадрата:'))
+print()
+print('Вывод:')
+print(f'Периметр: {square_side * 4}')
+print(f'Площадь: {square_side ** 2}')
+print()
+rectangle_length = int(input('Введите длину прямоугольника:'))
+rectangle_width = int(input('Введите ширину прямоугольника:'))
+print()
+print('Вывод:')
+print(f'Периметр: {(rectangle_length + rectangle_width) * 2}')
+print(f'Площадь: {rectangle_length * rectangle_width}')
+
+seporator = input()
+print(seporator * (square_side * 4 + rectangle_length * rectangle_width))
+
+salary_per_month = int(input('Введите заработную плату в месяц:'))
+credit_percent = int(input('Введите, какой процент(%) уходит на ипотеку:'))
+life_percent = int(input('Введите, какой процент(%) уходит на жизнь:'))
+payment_percent = salary_per_month * 12 * credit_percent / 100
+payment_for_life = salary_per_month * 12 * life_percent / 100
+print()
+print('Вывод:')
+print(f'На ипотеку было потрачено: {int(payment_percent)}')
+print(f'Было накоплено: {int(salary_per_month * 12 - payment_percent - payment_for_life)}')
