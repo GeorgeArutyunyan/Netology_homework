@@ -21,5 +21,5 @@ def file_writer(some_list: list) -> str:
                     file.write(row)
     return 'Writing in file finished'
 
-`
+
 print(file_writer(file_reader()))
