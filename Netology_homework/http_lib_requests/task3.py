@@ -25,4 +25,5 @@ def get_questions(tag: str) -> str:
     return 'все запросы, за последние два дня, получены'
 
 
-pprint(get_questions('python'))
+if __name__ == '__main__':
+    pprint(get_questions('python'))
