@@ -35,7 +35,7 @@ def get_shop_list_by_dishes(dishes_list: list, persons: int) -> dict:
                                            {'measure': cook_book[item][i]['measure'],
                                             'quantity': int((cook_book[item][i]['quantity']) * persons)})
                 else:
-                    dishes_dict[name]['quantity'] *= 2
+                    dishes_dict[name]['quantity'] += cook_book[item][i]['quantity']
     return dishes_dict
 
 
